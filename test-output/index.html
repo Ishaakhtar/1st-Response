@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>D:\Eclipse Projects\1stResponseTestNG\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">27 methods,   27 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.ClientTranscriptions" class="method navigator-link" hash-for-method="AddDocumentFromTranscriptions">AddDocumentFromTranscriptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.CommonFunctionalities" class="method navigator-link" hash-for-method="ChangePassword">ChangePassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.CommonFunctionalities" class="method navigator-link" hash-for-method="ChangePasswordInvalid">ChangePasswordInvalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.Login" class="method navigator-link" hash-for-method="ClientLogin">ClientLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.ClientTranscriptions" class="method navigator-link" hash-for-method="CloseButtonInTransacriptions">CloseButtonInTransacriptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.CommonFunctionalities" class="method navigator-link" hash-for-method="FacebookLink">FacebookLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.ClientTranscriptions" class="method navigator-link" hash-for-method="FilterCancelledTranscriptions">FilterCancelledTranscriptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.ClientTranscriptions" class="method navigator-link" hash-for-method="FilterCompletedTranscriptions">FilterCompletedTranscriptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.ClientTranscriptions" class="method navigator-link" hash-for-method="FilterFailedTranscriptions">FilterFailedTranscriptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.ClientTranscriptions" class="method navigator-link" hash-for-method="FilterInProgressTranscriptions">FilterInProgressTranscriptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.ClientTranscriptions" class="method navigator-link" hash-for-method="FilterQueuedTranscriptions">FilterQueuedTranscriptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.ClientTranscriptions" class="method navigator-link" hash-for-method="SaveAndCloseWithoutSelectingAudio">SaveAndCloseWithoutSelectingAudio</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.ClientTranscriptions" class="method navigator-link" hash-for-method="SaveWithoutSelectingAudio">SaveWithoutSelectingAudio</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.CommonFunctionalities" class="method navigator-link" hash-for-method="SubmitTicketSuccessfully">SubmitTicketSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.CommonFunctionalities" class="method navigator-link" hash-for-method="SubmitTicketWithoutTitleAndMessage">SubmitTicketWithoutTitleAndMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.CommonFunctionalities" class="method navigator-link" hash-for-method="TwitterLink">TwitterLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.ClientTranscriptions" class="method navigator-link" hash-for-method="UploadAudioAndSave">UploadAudioAndSave</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.ClientTranscriptions" class="method navigator-link" hash-for-method="UploadAudioSaveAndClose">UploadAudioSaveAndClose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.ClientTranscriptions" class="method navigator-link" hash-for-method="UploadLargeAudioAndSave">UploadLargeAudioAndSave</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.ClientTranscriptions" class="method navigator-link" hash-for-method="UploadLargeAudioSaveAndClose">UploadLargeAudioSaveAndClose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.ClientDashboard" class="method navigator-link" hash-for-method="VerifyAllJobsCount">VerifyAllJobsCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.ClientDashboard" class="method navigator-link" hash-for-method="VerifyCompleteJobsCount">VerifyCompleteJobsCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.ClientDashboard" class="method navigator-link" hash-for-method="VerifyCompletedJobsStatus">VerifyCompletedJobsStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.ClientDashboard" class="method navigator-link" hash-for-method="VerifyDocumentsCount">VerifyDocumentsCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.ClientDashboard" class="method navigator-link" hash-for-method="VerifyInProgressJobsCount">VerifyInProgressJobsCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.ClientDashboard" class="method navigator-link" hash-for-method="VerifyInProgressJobsStatus">VerifyInProgressJobsStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Website.ClientTranscriptions" class="method navigator-link" hash-for-method="ViewDocumentFromTranscriptions">ViewDocumentFromTranscriptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Website.CommonFunctionalities</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ChangePassword">
+                  </a> <!-- ChangePassword -->
+                  <span class="method-name">ChangePassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ChangePasswordInvalid">
+                  </a> <!-- ChangePasswordInvalid -->
+                  <span class="method-name">ChangePasswordInvalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FacebookLink">
+                  </a> <!-- FacebookLink -->
+                  <span class="method-name">FacebookLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubmitTicketSuccessfully">
+                  </a> <!-- SubmitTicketSuccessfully -->
+                  <span class="method-name">SubmitTicketSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubmitTicketWithoutTitleAndMessage">
+                  </a> <!-- SubmitTicketWithoutTitleAndMessage -->
+                  <span class="method-name">SubmitTicketWithoutTitleAndMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TwitterLink">
+                  </a> <!-- TwitterLink -->
+                  <span class="method-name">TwitterLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Website.ClientTranscriptions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddDocumentFromTranscriptions">
+                  </a> <!-- AddDocumentFromTranscriptions -->
+                  <span class="method-name">AddDocumentFromTranscriptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseButtonInTransacriptions">
+                  </a> <!-- CloseButtonInTransacriptions -->
+                  <span class="method-name">CloseButtonInTransacriptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FilterCancelledTranscriptions">
+                  </a> <!-- FilterCancelledTranscriptions -->
+                  <span class="method-name">FilterCancelledTranscriptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FilterCompletedTranscriptions">
+                  </a> <!-- FilterCompletedTranscriptions -->
+                  <span class="method-name">FilterCompletedTranscriptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FilterFailedTranscriptions">
+                  </a> <!-- FilterFailedTranscriptions -->
+                  <span class="method-name">FilterFailedTranscriptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FilterInProgressTranscriptions">
+                  </a> <!-- FilterInProgressTranscriptions -->
+                  <span class="method-name">FilterInProgressTranscriptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FilterQueuedTranscriptions">
+                  </a> <!-- FilterQueuedTranscriptions -->
+                  <span class="method-name">FilterQueuedTranscriptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SaveAndCloseWithoutSelectingAudio">
+                  </a> <!-- SaveAndCloseWithoutSelectingAudio -->
+                  <span class="method-name">SaveAndCloseWithoutSelectingAudio</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SaveWithoutSelectingAudio">
+                  </a> <!-- SaveWithoutSelectingAudio -->
+                  <span class="method-name">SaveWithoutSelectingAudio</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UploadAudioAndSave">
+                  </a> <!-- UploadAudioAndSave -->
+                  <span class="method-name">UploadAudioAndSave</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UploadAudioSaveAndClose">
+                  </a> <!-- UploadAudioSaveAndClose -->
+                  <span class="method-name">UploadAudioSaveAndClose</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UploadLargeAudioAndSave">
+                  </a> <!-- UploadLargeAudioAndSave -->
+                  <span class="method-name">UploadLargeAudioAndSave</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UploadLargeAudioSaveAndClose">
+                  </a> <!-- UploadLargeAudioSaveAndClose -->
+                  <span class="method-name">UploadLargeAudioSaveAndClose</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ViewDocumentFromTranscriptions">
+                  </a> <!-- ViewDocumentFromTranscriptions -->
+                  <span class="method-name">ViewDocumentFromTranscriptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Website.ClientDashboard</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAllJobsCount">
+                  </a> <!-- VerifyAllJobsCount -->
+                  <span class="method-name">VerifyAllJobsCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyCompleteJobsCount">
+                  </a> <!-- VerifyCompleteJobsCount -->
+                  <span class="method-name">VerifyCompleteJobsCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyCompletedJobsStatus">
+                  </a> <!-- VerifyCompletedJobsStatus -->
+                  <span class="method-name">VerifyCompletedJobsStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyDocumentsCount">
+                  </a> <!-- VerifyDocumentsCount -->
+                  <span class="method-name">VerifyDocumentsCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyInProgressJobsCount">
+                  </a> <!-- VerifyInProgressJobsCount -->
+                  <span class="method-name">VerifyInProgressJobsCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyInProgressJobsStatus">
+                  </a> <!-- VerifyInProgressJobsStatus -->
+                  <span class="method-name">VerifyInProgressJobsStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Website.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClientLogin">
+                  </a> <!-- ClientLogin -->
+                  <span class="method-name">ClientLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Eclipse Projects\1stResponseTestNG\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Website.Login&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ClientLogin&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Website.Login --&gt;
+      &lt;class name=&quot;Website.ClientDashboard&quot;/&gt;
+      &lt;class name=&quot;Website.ClientTranscriptions&quot;/&gt;
+      &lt;class name=&quot;Website.CommonFunctionalities&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(27);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'AddDocumentFromTranscriptions')
+data.setCell(0, 2, 'Website.ClientTranscriptions')
+data.setCell(0, 3, 11148);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SubmitTicketSuccessfully')
+data.setCell(1, 2, 'Website.CommonFunctionalities')
+data.setCell(1, 3, 10727);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'SubmitTicketWithoutTitleAndMessage')
+data.setCell(2, 2, 'Website.CommonFunctionalities')
+data.setCell(2, 3, 9892);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'UploadAudioSaveAndClose')
+data.setCell(3, 2, 'Website.ClientTranscriptions')
+data.setCell(3, 3, 9186);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TwitterLink')
+data.setCell(4, 2, 'Website.CommonFunctionalities')
+data.setCell(4, 3, 8623);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'UploadAudioAndSave')
+data.setCell(5, 2, 'Website.ClientTranscriptions')
+data.setCell(5, 3, 7979);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'FilterCompletedTranscriptions')
+data.setCell(6, 2, 'Website.ClientTranscriptions')
+data.setCell(6, 3, 5741);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'CloseButtonInTransacriptions')
+data.setCell(7, 2, 'Website.ClientTranscriptions')
+data.setCell(7, 3, 5485);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'FilterCancelledTranscriptions')
+data.setCell(8, 2, 'Website.ClientTranscriptions')
+data.setCell(8, 3, 5007);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'FilterQueuedTranscriptions')
+data.setCell(9, 2, 'Website.ClientTranscriptions')
+data.setCell(9, 3, 4983);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'FilterInProgressTranscriptions')
+data.setCell(10, 2, 'Website.ClientTranscriptions')
+data.setCell(10, 3, 4726);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'FacebookLink')
+data.setCell(11, 2, 'Website.CommonFunctionalities')
+data.setCell(11, 3, 4664);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'FilterFailedTranscriptions')
+data.setCell(12, 2, 'Website.ClientTranscriptions')
+data.setCell(12, 3, 4633);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'ViewDocumentFromTranscriptions')
+data.setCell(13, 2, 'Website.ClientTranscriptions')
+data.setCell(13, 3, 3917);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'UploadLargeAudioAndSave')
+data.setCell(14, 2, 'Website.ClientTranscriptions')
+data.setCell(14, 3, 3879);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'UploadLargeAudioSaveAndClose')
+data.setCell(15, 2, 'Website.ClientTranscriptions')
+data.setCell(15, 3, 3820);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'ClientLogin')
+data.setCell(16, 2, 'Website.Login')
+data.setCell(16, 3, 3783);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'ChangePassword')
+data.setCell(17, 2, 'Website.CommonFunctionalities')
+data.setCell(17, 3, 1997);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'VerifyAllJobsCount')
+data.setCell(18, 2, 'Website.ClientDashboard')
+data.setCell(18, 3, 1762);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'ChangePasswordInvalid')
+data.setCell(19, 2, 'Website.CommonFunctionalities')
+data.setCell(19, 3, 1729);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'SaveWithoutSelectingAudio')
+data.setCell(20, 2, 'Website.ClientTranscriptions')
+data.setCell(20, 3, 1673);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'SaveAndCloseWithoutSelectingAudio')
+data.setCell(21, 2, 'Website.ClientTranscriptions')
+data.setCell(21, 3, 1614);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'VerifyCompletedJobsStatus')
+data.setCell(22, 2, 'Website.ClientDashboard')
+data.setCell(22, 3, 1562);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'VerifyCompleteJobsCount')
+data.setCell(23, 2, 'Website.ClientDashboard')
+data.setCell(23, 3, 1276);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'VerifyDocumentsCount')
+data.setCell(24, 2, 'Website.ClientDashboard')
+data.setCell(24, 3, 1080);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'VerifyInProgressJobsStatus')
+data.setCell(25, 2, 'Website.ClientDashboard')
+data.setCell(25, 3, 799);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'VerifyInProgressJobsCount')
+data.setCell(26, 2, 'Website.ClientDashboard')
+data.setCell(26, 3, 661);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">10 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Website.CommonFunctionalities</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">OpenBrowser</span>
+                <br/>
+                <span class="ignored-method-name">CheckTitleIsMandatoryForTicket</span>
+                <br/>
+                <span class="ignored-method-name">CheckMessageIsMandatoryforTicket</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Website.ClientTranscriptions</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">PlayTransacription</span>
+                <br/>
+                <span class="ignored-method-name">OpenBrowser</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Website.ClientDashboard</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">OpenBrowser</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Website.Login</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">StaffLogin</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Website.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">ClientLogin</span>
+                <span class="method-start">9310 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">13096 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Website.ClientDashboard</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyAllJobsCount</span>
+                <span class="method-start">13695 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">15461 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyCompleteJobsCount</span>
+                <span class="method-start">16034 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">17317 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyInProgressJobsCount</span>
+                <span class="method-start">17886 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">18549 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyDocumentsCount</span>
+                <span class="method-start">19107 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">20189 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyCompletedJobsStatus</span>
+                <span class="method-start">20763 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">22327 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyInProgressJobsStatus</span>
+                <span class="method-start">22903 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">23704 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Website.ClientTranscriptions</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">AddDocumentFromTranscriptions</span>
+                <span class="method-start">24280 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">35429 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">CloseButtonInTransacriptions</span>
+                <span class="method-start">36048 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">41534 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">FilterCancelledTranscriptions</span>
+                <span class="method-start">42142 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">47152 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">FilterCompletedTranscriptions</span>
+                <span class="method-start">47767 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">53510 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">FilterFailedTranscriptions</span>
+                <span class="method-start">54051 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">58685 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">FilterInProgressTranscriptions</span>
+                <span class="method-start">59244 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">63973 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">FilterQueuedTranscriptions</span>
+                <span class="method-start">64531 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">69517 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SaveAndCloseWithoutSelectingAudio</span>
+                <span class="method-start">70076 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">71692 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SaveWithoutSelectingAudio</span>
+                <span class="method-start">72261 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">73936 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">UploadAudioAndSave</span>
+                <span class="method-start">74495 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">82475 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">UploadAudioSaveAndClose</span>
+                <span class="method-start">83050 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">92238 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">UploadLargeAudioAndSave</span>
+                <span class="method-start">92807 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">96688 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">UploadLargeAudioSaveAndClose</span>
+                <span class="method-start">97268 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">101091 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ViewDocumentFromTranscriptions</span>
+                <span class="method-start">101652 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">105571 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Website.CommonFunctionalities</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ChangePassword</span>
+                <span class="method-start">106136 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">108134 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ChangePasswordInvalid</span>
+                <span class="method-start">108673 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">110405 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">FacebookLink</span>
+                <span class="method-start">110966 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">115631 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TwitterLink</span>
+                <span class="method-start">116229 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">124854 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SubmitTicketWithoutTitleAndMessage</span>
+                <span class="method-start">125479 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">135371 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SubmitTicketSuccessfully</span>
+                <span class="method-start">135910 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BacktoDashboard</span>
+                <span class="method-start">146640 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Website.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">147235 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">153429 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Website.ClientTranscriptions">
+        <methods>
+          <include name="PlayTransacription"/>
+          <include name="FilterQueuedTranscriptions"/>
+          <include name="AddDocumentFromTranscriptions"/>
+          <include name="UploadAudioAndSave"/>
+          <include name="UploadLargeAudioAndSave"/>
+          <include name="OpenBrowser"/>
+          <include name="CloseButtonInTransacriptions"/>
+          <include name="FilterCompletedTranscriptions"/>
+          <include name="SaveWithoutSelectingAudio"/>
+          <include name="UploadLargeAudioSaveAndClose"/>
+          <include name="somewait"/>
+          <include name="FilterFailedTranscriptions"/>
+          <include name="tearDown"/>
+          <include name="UploadAudioSaveAndClose"/>
+          <include name="FilterCancelledTranscriptions"/>
+          <include name="SaveAndCloseWithoutSelectingAudio"/>
+          <include name="FilterInProgressTranscriptions"/>
+          <include name="ViewDocumentFromTranscriptions"/>
+        </methods>
+      </class> <!-- Website.ClientTranscriptions -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

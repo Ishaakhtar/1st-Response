@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="27" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-17T16:47:10 PKT" name="Suite" finished-at="2023-10-17T16:49:44 PKT" duration-ms="153456">
+    <groups>
+    </groups>
+    <test started-at="2023-10-17T16:47:10 PKT" name="Test" finished-at="2023-10-17T16:49:44 PKT" duration-ms="153456">
+      <class name="Website.ClientDashboard">
+        <test-method signature="VerifyAllJobsCount()[pri:1, instance:Website.ClientDashboard@2bec854f]" started-at="2023-10-17T16:47:24 PKT" name="VerifyAllJobsCount" finished-at="2023-10-17T16:47:26 PKT" duration-ms="1762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAllJobsCount -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.ClientDashboard@2bec854f]" started-at="2023-10-17T16:47:26 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:47:26 PKT" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method signature="VerifyCompleteJobsCount()[pri:2, instance:Website.ClientDashboard@2bec854f]" started-at="2023-10-17T16:47:26 PKT" name="VerifyCompleteJobsCount" finished-at="2023-10-17T16:47:28 PKT" duration-ms="1276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCompleteJobsCount -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.ClientDashboard@2bec854f]" started-at="2023-10-17T16:47:28 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:47:28 PKT" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method signature="VerifyInProgressJobsCount()[pri:3, instance:Website.ClientDashboard@2bec854f]" started-at="2023-10-17T16:47:28 PKT" name="VerifyInProgressJobsCount" finished-at="2023-10-17T16:47:29 PKT" duration-ms="661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInProgressJobsCount -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.ClientDashboard@2bec854f]" started-at="2023-10-17T16:47:29 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:47:30 PKT" duration-ms="556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method signature="VerifyDocumentsCount()[pri:4, instance:Website.ClientDashboard@2bec854f]" started-at="2023-10-17T16:47:30 PKT" name="VerifyDocumentsCount" finished-at="2023-10-17T16:47:31 PKT" duration-ms="1080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDocumentsCount -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.ClientDashboard@2bec854f]" started-at="2023-10-17T16:47:31 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:47:31 PKT" duration-ms="570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method signature="VerifyCompletedJobsStatus()[pri:5, instance:Website.ClientDashboard@2bec854f]" started-at="2023-10-17T16:47:31 PKT" name="VerifyCompletedJobsStatus" finished-at="2023-10-17T16:47:33 PKT" duration-ms="1562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCompletedJobsStatus -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.ClientDashboard@2bec854f]" started-at="2023-10-17T16:47:33 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:47:33 PKT" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method signature="VerifyInProgressJobsStatus()[pri:6, instance:Website.ClientDashboard@2bec854f]" started-at="2023-10-17T16:47:33 PKT" name="VerifyInProgressJobsStatus" finished-at="2023-10-17T16:47:34 PKT" duration-ms="799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInProgressJobsStatus -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.ClientDashboard@2bec854f]" started-at="2023-10-17T16:47:34 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:47:35 PKT" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+      </class> <!-- Website.ClientDashboard -->
+      <class name="Website.ClientTranscriptions">
+        <test-method signature="AddDocumentFromTranscriptions()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:47:35 PKT" name="AddDocumentFromTranscriptions" finished-at="2023-10-17T16:47:46 PKT" duration-ms="11148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddDocumentFromTranscriptions -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:47:46 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:47:46 PKT" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method signature="CloseButtonInTransacriptions()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:47:46 PKT" name="CloseButtonInTransacriptions" finished-at="2023-10-17T16:47:52 PKT" duration-ms="5485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseButtonInTransacriptions -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:47:52 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:47:53 PKT" duration-ms="605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method signature="FilterCancelledTranscriptions()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:47:53 PKT" name="FilterCancelledTranscriptions" finished-at="2023-10-17T16:47:58 PKT" duration-ms="5007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterCancelledTranscriptions -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:47:58 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:47:58 PKT" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method signature="FilterCompletedTranscriptions()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:47:58 PKT" name="FilterCompletedTranscriptions" finished-at="2023-10-17T16:48:04 PKT" duration-ms="5741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterCompletedTranscriptions -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:48:04 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:48:04 PKT" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method signature="FilterFailedTranscriptions()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:48:04 PKT" name="FilterFailedTranscriptions" finished-at="2023-10-17T16:48:09 PKT" duration-ms="4633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterFailedTranscriptions -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:48:09 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:48:10 PKT" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method signature="FilterInProgressTranscriptions()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:48:10 PKT" name="FilterInProgressTranscriptions" finished-at="2023-10-17T16:48:14 PKT" duration-ms="4726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterInProgressTranscriptions -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:48:14 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:48:15 PKT" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method signature="FilterQueuedTranscriptions()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:48:15 PKT" name="FilterQueuedTranscriptions" finished-at="2023-10-17T16:48:20 PKT" duration-ms="4983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterQueuedTranscriptions -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:48:20 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:48:20 PKT" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method signature="SaveAndCloseWithoutSelectingAudio()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:48:20 PKT" name="SaveAndCloseWithoutSelectingAudio" finished-at="2023-10-17T16:48:22 PKT" duration-ms="1614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveAndCloseWithoutSelectingAudio -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:48:22 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:48:23 PKT" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method signature="SaveWithoutSelectingAudio()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:48:23 PKT" name="SaveWithoutSelectingAudio" finished-at="2023-10-17T16:48:24 PKT" duration-ms="1673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveWithoutSelectingAudio -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:48:24 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:48:25 PKT" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method signature="UploadAudioAndSave()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:48:25 PKT" name="UploadAudioAndSave" finished-at="2023-10-17T16:48:33 PKT" duration-ms="7979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadAudioAndSave -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:48:33 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:48:33 PKT" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method signature="UploadAudioSaveAndClose()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:48:33 PKT" name="UploadAudioSaveAndClose" finished-at="2023-10-17T16:48:43 PKT" duration-ms="9186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadAudioSaveAndClose -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:48:43 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:48:43 PKT" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method signature="UploadLargeAudioAndSave()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:48:43 PKT" name="UploadLargeAudioAndSave" finished-at="2023-10-17T16:48:47 PKT" duration-ms="3879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadLargeAudioAndSave -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:48:47 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:48:48 PKT" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method signature="UploadLargeAudioSaveAndClose()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:48:48 PKT" name="UploadLargeAudioSaveAndClose" finished-at="2023-10-17T16:48:52 PKT" duration-ms="3820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadLargeAudioSaveAndClose -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:48:52 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:48:52 PKT" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method signature="ViewDocumentFromTranscriptions()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:48:52 PKT" name="ViewDocumentFromTranscriptions" finished-at="2023-10-17T16:48:56 PKT" duration-ms="3917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewDocumentFromTranscriptions -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.ClientTranscriptions@31edaa7d]" started-at="2023-10-17T16:48:56 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:48:57 PKT" duration-ms="563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+      </class> <!-- Website.ClientTranscriptions -->
+      <class name="Website.CommonFunctionalities">
+        <test-method signature="ChangePassword()[pri:0, instance:Website.CommonFunctionalities@26adfd2d]" started-at="2023-10-17T16:48:57 PKT" name="ChangePassword" finished-at="2023-10-17T16:48:59 PKT" duration-ms="1997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangePassword -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.CommonFunctionalities@26adfd2d]" started-at="2023-10-17T16:48:59 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:48:59 PKT" duration-ms="537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method signature="ChangePasswordInvalid()[pri:0, instance:Website.CommonFunctionalities@26adfd2d]" started-at="2023-10-17T16:48:59 PKT" name="ChangePasswordInvalid" finished-at="2023-10-17T16:49:01 PKT" duration-ms="1729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangePasswordInvalid -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.CommonFunctionalities@26adfd2d]" started-at="2023-10-17T16:49:01 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:49:01 PKT" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method signature="FacebookLink()[pri:0, instance:Website.CommonFunctionalities@26adfd2d]" started-at="2023-10-17T16:49:01 PKT" name="FacebookLink" finished-at="2023-10-17T16:49:06 PKT" duration-ms="4664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FacebookLink -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.CommonFunctionalities@26adfd2d]" started-at="2023-10-17T16:49:06 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:49:07 PKT" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method signature="TwitterLink()[pri:0, instance:Website.CommonFunctionalities@26adfd2d]" started-at="2023-10-17T16:49:07 PKT" name="TwitterLink" finished-at="2023-10-17T16:49:15 PKT" duration-ms="8623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TwitterLink -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.CommonFunctionalities@26adfd2d]" started-at="2023-10-17T16:49:15 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:49:16 PKT" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method signature="SubmitTicketWithoutTitleAndMessage()[pri:9, instance:Website.CommonFunctionalities@26adfd2d]" started-at="2023-10-17T16:49:16 PKT" name="SubmitTicketWithoutTitleAndMessage" finished-at="2023-10-17T16:49:26 PKT" duration-ms="9892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitTicketWithoutTitleAndMessage -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.CommonFunctionalities@26adfd2d]" started-at="2023-10-17T16:49:26 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:49:26 PKT" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method signature="SubmitTicketSuccessfully()[pri:10, instance:Website.CommonFunctionalities@26adfd2d]" started-at="2023-10-17T16:49:26 PKT" name="SubmitTicketSuccessfully" finished-at="2023-10-17T16:49:37 PKT" duration-ms="10727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitTicketSuccessfully -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.CommonFunctionalities@26adfd2d]" started-at="2023-10-17T16:49:37 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:49:38 PKT" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+      </class> <!-- Website.CommonFunctionalities -->
+      <class name="Website.Login">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:Website.Login@14f232c4]" started-at="2023-10-17T16:47:10 PKT" name="OpenBrowser" finished-at="2023-10-17T16:47:20 PKT" duration-ms="9250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="ClientLogin()[pri:0, instance:Website.Login@14f232c4]" started-at="2023-10-17T16:47:20 PKT" name="ClientLogin" finished-at="2023-10-17T16:47:24 PKT" duration-ms="3783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClientLogin -->
+        <test-method is-config="true" signature="BacktoDashboard()[pri:0, instance:Website.Login@14f232c4]" started-at="2023-10-17T16:47:24 PKT" name="BacktoDashboard" finished-at="2023-10-17T16:47:24 PKT" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BacktoDashboard -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:Website.Login@14f232c4]" started-at="2023-10-17T16:49:38 PKT" name="Logout" finished-at="2023-10-17T16:49:44 PKT" duration-ms="6194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Website.Login@14f232c4]" started-at="2023-10-17T16:49:44 PKT" name="tearDown" finished-at="2023-10-17T16:49:44 PKT" depends-on-methods="Website.Login.Logout" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Website.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

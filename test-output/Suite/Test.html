@@ -1,0 +1,215 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 17 16:47:10 PKT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>153 seconds (153456 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Website.ClientTranscriptions.FilterInProgressTranscriptions()'><b>FilterInProgressTranscriptions</b><br>Test class: Website.ClientTranscriptions</td>
+<td></td>
+<td>4</td>
+<td>Website.ClientTranscriptions@31edaa7d</td></tr>
+<tr>
+<td title='Website.ClientTranscriptions.CloseButtonInTransacriptions()'><b>CloseButtonInTransacriptions</b><br>Test class: Website.ClientTranscriptions</td>
+<td></td>
+<td>5</td>
+<td>Website.ClientTranscriptions@31edaa7d</td></tr>
+<tr>
+<td title='Website.CommonFunctionalities.SubmitTicketSuccessfully()'><b>SubmitTicketSuccessfully</b><br>Test class: Website.CommonFunctionalities</td>
+<td></td>
+<td>10</td>
+<td>Website.CommonFunctionalities@26adfd2d</td></tr>
+<tr>
+<td title='Website.ClientTranscriptions.AddDocumentFromTranscriptions()'><b>AddDocumentFromTranscriptions</b><br>Test class: Website.ClientTranscriptions</td>
+<td></td>
+<td>11</td>
+<td>Website.ClientTranscriptions@31edaa7d</td></tr>
+<tr>
+<td title='Website.Login.ClientLogin()'><b>ClientLogin</b><br>Test class: Website.Login</td>
+<td></td>
+<td>3</td>
+<td>Website.Login@14f232c4</td></tr>
+<tr>
+<td title='Website.ClientTranscriptions.SaveWithoutSelectingAudio()'><b>SaveWithoutSelectingAudio</b><br>Test class: Website.ClientTranscriptions</td>
+<td></td>
+<td>1</td>
+<td>Website.ClientTranscriptions@31edaa7d</td></tr>
+<tr>
+<td title='Website.ClientTranscriptions.UploadLargeAudioAndSave()'><b>UploadLargeAudioAndSave</b><br>Test class: Website.ClientTranscriptions</td>
+<td></td>
+<td>3</td>
+<td>Website.ClientTranscriptions@31edaa7d</td></tr>
+<tr>
+<td title='Website.ClientTranscriptions.UploadAudioAndSave()'><b>UploadAudioAndSave</b><br>Test class: Website.ClientTranscriptions</td>
+<td></td>
+<td>7</td>
+<td>Website.ClientTranscriptions@31edaa7d</td></tr>
+<tr>
+<td title='Website.ClientTranscriptions.FilterFailedTranscriptions()'><b>FilterFailedTranscriptions</b><br>Test class: Website.ClientTranscriptions</td>
+<td></td>
+<td>4</td>
+<td>Website.ClientTranscriptions@31edaa7d</td></tr>
+<tr>
+<td title='Website.ClientTranscriptions.UploadLargeAudioSaveAndClose()'><b>UploadLargeAudioSaveAndClose</b><br>Test class: Website.ClientTranscriptions</td>
+<td></td>
+<td>3</td>
+<td>Website.ClientTranscriptions@31edaa7d</td></tr>
+<tr>
+<td title='Website.ClientTranscriptions.FilterCancelledTranscriptions()'><b>FilterCancelledTranscriptions</b><br>Test class: Website.ClientTranscriptions</td>
+<td></td>
+<td>5</td>
+<td>Website.ClientTranscriptions@31edaa7d</td></tr>
+<tr>
+<td title='Website.CommonFunctionalities.ChangePasswordInvalid()'><b>ChangePasswordInvalid</b><br>Test class: Website.CommonFunctionalities</td>
+<td></td>
+<td>1</td>
+<td>Website.CommonFunctionalities@26adfd2d</td></tr>
+<tr>
+<td title='Website.ClientDashboard.VerifyDocumentsCount()'><b>VerifyDocumentsCount</b><br>Test class: Website.ClientDashboard</td>
+<td></td>
+<td>1</td>
+<td>Website.ClientDashboard@2bec854f</td></tr>
+<tr>
+<td title='Website.ClientDashboard.VerifyInProgressJobsStatus()'><b>VerifyInProgressJobsStatus</b><br>Test class: Website.ClientDashboard</td>
+<td></td>
+<td>0</td>
+<td>Website.ClientDashboard@2bec854f</td></tr>
+<tr>
+<td title='Website.ClientDashboard.VerifyCompleteJobsCount()'><b>VerifyCompleteJobsCount</b><br>Test class: Website.ClientDashboard</td>
+<td></td>
+<td>1</td>
+<td>Website.ClientDashboard@2bec854f</td></tr>
+<tr>
+<td title='Website.CommonFunctionalities.SubmitTicketWithoutTitleAndMessage()'><b>SubmitTicketWithoutTitleAndMessage</b><br>Test class: Website.CommonFunctionalities</td>
+<td></td>
+<td>9</td>
+<td>Website.CommonFunctionalities@26adfd2d</td></tr>
+<tr>
+<td title='Website.ClientTranscriptions.FilterQueuedTranscriptions()'><b>FilterQueuedTranscriptions</b><br>Test class: Website.ClientTranscriptions</td>
+<td></td>
+<td>4</td>
+<td>Website.ClientTranscriptions@31edaa7d</td></tr>
+<tr>
+<td title='Website.ClientTranscriptions.SaveAndCloseWithoutSelectingAudio()'><b>SaveAndCloseWithoutSelectingAudio</b><br>Test class: Website.ClientTranscriptions</td>
+<td></td>
+<td>1</td>
+<td>Website.ClientTranscriptions@31edaa7d</td></tr>
+<tr>
+<td title='Website.CommonFunctionalities.ChangePassword()'><b>ChangePassword</b><br>Test class: Website.CommonFunctionalities</td>
+<td></td>
+<td>1</td>
+<td>Website.CommonFunctionalities@26adfd2d</td></tr>
+<tr>
+<td title='Website.ClientDashboard.VerifyInProgressJobsCount()'><b>VerifyInProgressJobsCount</b><br>Test class: Website.ClientDashboard</td>
+<td></td>
+<td>0</td>
+<td>Website.ClientDashboard@2bec854f</td></tr>
+<tr>
+<td title='Website.ClientDashboard.VerifyCompletedJobsStatus()'><b>VerifyCompletedJobsStatus</b><br>Test class: Website.ClientDashboard</td>
+<td></td>
+<td>1</td>
+<td>Website.ClientDashboard@2bec854f</td></tr>
+<tr>
+<td title='Website.ClientDashboard.VerifyAllJobsCount()'><b>VerifyAllJobsCount</b><br>Test class: Website.ClientDashboard</td>
+<td></td>
+<td>1</td>
+<td>Website.ClientDashboard@2bec854f</td></tr>
+<tr>
+<td title='Website.ClientTranscriptions.FilterCompletedTranscriptions()'><b>FilterCompletedTranscriptions</b><br>Test class: Website.ClientTranscriptions</td>
+<td></td>
+<td>5</td>
+<td>Website.ClientTranscriptions@31edaa7d</td></tr>
+<tr>
+<td title='Website.CommonFunctionalities.FacebookLink()'><b>FacebookLink</b><br>Test class: Website.CommonFunctionalities</td>
+<td></td>
+<td>4</td>
+<td>Website.CommonFunctionalities@26adfd2d</td></tr>
+<tr>
+<td title='Website.ClientTranscriptions.ViewDocumentFromTranscriptions()'><b>ViewDocumentFromTranscriptions</b><br>Test class: Website.ClientTranscriptions</td>
+<td></td>
+<td>3</td>
+<td>Website.ClientTranscriptions@31edaa7d</td></tr>
+<tr>
+<td title='Website.ClientTranscriptions.UploadAudioSaveAndClose()'><b>UploadAudioSaveAndClose</b><br>Test class: Website.ClientTranscriptions</td>
+<td></td>
+<td>9</td>
+<td>Website.ClientTranscriptions@31edaa7d</td></tr>
+<tr>
+<td title='Website.CommonFunctionalities.TwitterLink()'><b>TwitterLink</b><br>Test class: Website.CommonFunctionalities</td>
+<td></td>
+<td>8</td>
+<td>Website.CommonFunctionalities@26adfd2d</td></tr>
+</table><p>
+</body>
+</html>
